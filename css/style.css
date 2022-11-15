@@ -1,0 +1,105 @@
+*{
+    padding: 0;
+    margin: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+img{
+    display: block;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+ul{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+.holder{
+    width: 1170px;
+    margin: auto;
+}
+body{
+    font-family: 'Ubuntu', sans-serif;
+}
+/* commen css ends here  */
+
+/* header style starts  */
+header .dad{
+    background: #0f2f44;
+
+}
+header .dad .holder{
+    background: #0f2f44;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+}
+header .dad .row .left{
+    text-align: left;
+    width: 50%;
+    padding: 17px 0;
+}
+header .dad .row .right{
+    text-align: right;
+    width: 50%;
+    padding: 17px 0;
+}
+/* header style endea  */
+/* nav style starts here  */
+nav .holder .logo{
+    width: 15%;
+    align-items: center;
+    justify-content: center;
+}
+nav .holder .menue{
+    width: 85%;
+    justify-content: flex-end;
+}
+nav .menue ul{
+    display: flex;
+    flex-wrap: wrap;
+}
+nav ul li{
+    padding: 40px 18px;
+    transition: .7s;
+    position: relative;
+}
+nav ul li:hover {
+    background: #fff9e6;
+}
+nav ul li a{
+    color: #0f2f44;
+    font-size: 16px;
+    font-weight: 500;
+    display: inline-block;
+    transition: .5s;
+}
+
+nav ul li:hover > a {
+    color: #ffd446;
+}
+
+nav ul li ul{
+    position: absolute;
+    top: 100%;
+    left: 0%;
+    opacity: 0;
+    visibility: hidden;
+}
+nav ul li:hover > ul{
+    opacity: 1;
+    visibility: visible;
+}
+
+nav ul li i{
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    border: 1px solid #0f2f44;
+    border-radius: 50%;
+    text-align: center;
+    
+}
